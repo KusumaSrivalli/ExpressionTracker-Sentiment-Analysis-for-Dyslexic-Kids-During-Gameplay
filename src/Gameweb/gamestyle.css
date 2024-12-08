@@ -1,0 +1,166 @@
+.gamestyle-body{
+    font-family: Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh; 
+    background-image: url("background.png");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.gamestyle-box1{
+    background-color: rgba(232, 224, 212, 0.736);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 600px;
+    height: 500px;
+    border-radius: 10px;
+
+}
+.gamestyle-box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.gamestyle-image {
+    max-width: 50%;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px rgba(28, 22, 22, 0.218);
+}
+
+.gamestyle-box3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.gamestyle-box3 input {
+    width: 60%;
+    padding: 8px;
+    margin: 10px 0;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: background-color 0.3s ease;
+}
+
+.gamestyle-box3 input:hover {
+    background-color: rgb(182, 199, 232);
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Adjust as needed for the size of the div */
+  position: relative;
+}
+
+.gamestyle-bottom-button {
+        position: fixed;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: #333;
+        color: #fff;
+        border: none;
+        border-radius: 15px;
+        padding: 10px 15px;
+        font-size: 15px;
+        font-family: Arial, sans-serif;
+        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+        transition: all 0.3s ease;
+        cursor: pointer;
+        pointer-events: auto;
+      }
+
+.gamestyle-bottom-button:hover {
+    background-color: #218838;
+}
+.gamestyle-result-message {
+    color: red;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.gamestyle-guess-input:hover{
+    background-color: rgb(182, 199, 232);
+}
+.gamestyle-timer {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px;
+    background: #333;
+    color: white;
+    border-radius: 5px;
+  }
+  .gamestyle-end-screen {
+    text-align: center;
+  }
+  
+  .gamestyle-end-message {
+    font-size: 2rem;       
+    font-weight: bold;       
+    color: green;          
+    margin-bottom: 1rem;     
+    text-align: center;      
+  }
+  .gamestyle-score {
+    font-size: 1.5rem;         
+    font-weight: bold;       
+    color: #333;             
+    margin-bottom: 2rem;     
+  }
+  .gamestyle-container{
+    display: 'flex';
+    flex-direction: 'column';
+    align-items: 'center';
+    justify-content: 'center';
+    height: '100vh';
+    background-color: '#f9f9f9';
+    text-align: 'center';
+  }
+  .gamestyle-header {
+    color: 'green';
+    font-size: '2rem';
+  }
+  .gamestyle-scoreMessage {
+    color: 'green';
+    font-size: '1.5rem';
+    margin-top: '20px';
+  }
+  .gamestyle-homeButton {
+    padding: 10px 20px;
+  font-size: 16px; /* Adjusted for better readability */
+  margin-top: 20px;
+  font-family: Arial, sans-serif;
+  background: #333; /* Dark background color */
+  color: #fff; /* White text for contrast */
+  border: none; /* No border */
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3); /* Enhanced shadow for depth */
+  cursor: pointer; /* Pointer cursor for interactivity */
+  position: relative;
+  z-index: 10;
+  pointer-events: auto; /* Allows interactions */
+  transition: all 0.3s ease; /* Smooth hover effects */
+  }

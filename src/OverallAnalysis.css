@@ -1,0 +1,119 @@
+/* Container Styling */
+.overallanalysis-emotion-analysis-container {
+  padding: 40px;
+  max-width: 1000px;
+  margin: auto;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.overallanalysis-session-title {
+  font-family: 'Arial', sans-serif;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+/* Summary Section */
+.overallanalysis-emotion-summary {
+  margin-bottom: 30px;
+}
+
+.overallanalysis-emotion-summary h4 {
+  font-family: 'Arial', sans-serif;
+  font-size: 1.5rem;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.overallanalysis-overallanalysis-emotion-summary ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.overallanalysis-emotion-summary li {
+  padding: 5px 0;
+  font-family: 'Arial', sans-serif;
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.overallanalysis-emotion-summary button {
+  background-color: #4caf50;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  font-size: 1rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-top: 20px;
+}
+
+.overallanalysis-emotion-summary button:hover {
+  background-color: #45a049;
+  transform: translateY(-2px);
+}
+
+/* Chart Container */
+.overallanalysis-chart-container {
+  display: flex;
+  flex-direction: column; /* Changed to column so charts stack vertically */
+  gap: 30px;
+  align-items: center;
+}
+
+.overallanalysis-chart-item {
+  width: 100%;
+  max-width: 600px; /* Limit chart width to 600px for both charts */
+  background-color: rgb(13, 11, 11);
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+ul li:hover {
+  color: #45a049; /* Change color when hovered for interactivity */
+  cursor: pointer; /* Pointer cursor for better UX */
+}
+.overallanalysis-gauge-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+  justify-content: center;
+}
+
+.gauge-item {
+  width: 200px;
+  margin: 10px;
+}
+
+.session-title {
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.overallanalysis-emotion-summary {
+  margin: 20px;
+  text-align: center;
+}
+
+
+.overallanalysis-chart-item canvas {
+  max-width: 100%;
+  height: auto; /* Ensures chart maintains its aspect ratio */
+}
+
+/* Media Queries for Smaller Screens */
+@media (max-width: 768px) {
+  .overallanalysis-chart-container {
+    padding: 10px; /* Add some padding for smaller screens */
+  }
+
+  .overallanalysis-chart-item {
+    width: 90%; /* Ensure charts are responsive on smaller screens */
+  }
+}

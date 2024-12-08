@@ -1,0 +1,125 @@
+/* src/components/Game.css */
+:root {
+    --primary-color: #0c0c0c;
+    --secondary-color: #eba421;
+    --accent-color: #cc74ff;
+    --text-color: rgb(21, 20, 20);
+    --background-color: #ACDEE1;
+    --correct-color: #00b894;
+    --wrong-color: #d63031;
+    --word-color: white;
+  }
+  
+  .game-game-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .game-keyboard-container {
+    margin-top: 20px;
+    padding: 10px;
+    background: #f5f5f5;
+    border-radius: 10px;
+  }
+  
+  .game-keyboard-row {
+    display: flex;
+    justify-content: center;
+    margin: 5px 0;
+    gap: 5px;
+  }
+  
+  .game-keyboard-key {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .game-keyboard-key:hover {
+    transform: translateY(-2px);
+  }
+  
+  .game-keyboard-key.correct {
+    background: #4CAF50;
+    color: white;
+  }
+  
+  .game-keyboard-key.wrong {
+    background: #f44336;
+    color: white;
+  }
+  
+  .game-keyboard-key:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .game-input-display {
+    margin: 20px 0;
+    min-height: 40px;
+  }
+  
+  .game-letter {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+    padding: 5px;
+    border-radius: 5px;
+    background: #f0f0f0;
+  }
+  
+  .game-letter.correct {
+    background: #4CAF50;
+    color: white;
+  }
+  
+  .game-letter.wrong {
+    background: #f44336;
+    color: white;
+  }
+  
+  .game-question-container {
+    margin: 20px 0;
+  }
+  
+  .game-question-image {
+    max-width: 300px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .game-feedback {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .game-feedback.correct {
+    background: #4CAF50;
+    color: white;
+  }
+  
+  .game-feedback.wrong {
+    background: #f44336;
+    color: white;
+  }
+  
+  .game-timer {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px;
+    background: #333;
+    color: white;
+    border-radius: 5px;
+  }

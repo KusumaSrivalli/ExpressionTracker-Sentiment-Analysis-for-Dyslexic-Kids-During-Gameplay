@@ -1,0 +1,106 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.Adminlogins-body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #fff;
+}
+
+.Adminlogins-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fff;
+}
+
+.Adminlogins-form {
+  width: 400px;
+  background: #ffffff;
+  padding: 30px 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.Adminlogins-h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 5px;
+}
+
+.Adminlogins-p {
+  color: #777777;
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+
+.Adminlogins-form-group {
+  margin-bottom: 20px;
+}
+
+.Adminlogins-form-group input {
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fff5f5;
+  outline: none;
+  transition: 0.3s ease;
+}
+
+.Adminlogins-form-group input:focus {
+  border-color: #f66a0a;
+  box-shadow: 0 0 6px rgba(255, 76, 14, 0.3);
+}
+
+button.Adminlogins-btn {
+  width: 100%;
+  padding: 15px;
+  background-color: #f66a0a;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+button.Adminlogins-btn:hover {
+  background-color: #f66a0a;
+}
+
+.forgot-password {
+  margin-top: 20px;
+  font-size: 14px;
+  color:#f66a0a;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+.Adminlogins-link {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #777777;
+}
+
+.Adminlogins-link a {
+  color:#f66a0a;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.Adminlogins-link a:hover {
+  text-decoration: underline;
+}
